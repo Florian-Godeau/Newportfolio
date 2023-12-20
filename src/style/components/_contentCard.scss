@@ -1,0 +1,9 @@
+$content-card-bg-color: #2c2c2e;
+$border-radius: 10px;
+
+.content-card {
+  background-color: $content-card-bg-color;
+  border-radius: $border-radius;
+  padding: 10px;
+  flex: 1;
+}

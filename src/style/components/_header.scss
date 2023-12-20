@@ -1,0 +1,38 @@
+$header-bg-color: #2c2c2e;
+$header-img-size: 100px;
+$icon-size: 24px;
+
+.header-card {
+  display: flex;
+  align-items: center;
+  background-color: $header-bg-color;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 1.875rem;
+
+  .header-image {
+    width: $header-img-size;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10%;
+  }
+
+  .header-content {
+    flex-grow: 1;
+  }
+
+  .social-links {
+    display: flex;
+    align-items: center;
+
+    a {
+      margin: 0 10px;
+
+      .icon {
+        width: $icon-size;
+        height: auto;
+        color: white;
+      }
+    }
+  }
+}

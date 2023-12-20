@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logohtml.png",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logohtmlback.png"
+    },
+    {
+        "id": 1,
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logocss.png",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logocssback.png"
+    },
+    {
+        "id": 2,
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logojs.png",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/javascriptlogoback.png"
+    },
+    {
+        "id": 3,
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logoreact.png",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logoreactback.png"
+    },
+    {
+        "id": 4,
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/reduxlogoround.png",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logoreduxback.png"
+    },
+    {
+        "id": 5,
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/sasslogo.png",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/sasslogoback.png"
+    },
+    {
+        "id": 6,
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/figma_logo_icon_147289.png",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/figmalogoback.png"
+    },
+    {
+        "id": 7,
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologo.png",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologoback.png"
+    }
+]

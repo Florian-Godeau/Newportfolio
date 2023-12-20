@@ -1,0 +1,6 @@
+.logos-list {
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    justify-content: center;
+    row-gap: 30px;
+}
