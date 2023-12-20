@@ -5,7 +5,7 @@ import { faUser, faBook, faBriefcase, faEnvelope } from '@fortawesome/free-solid
 
 function Nav() {
     return (
-        <nav className="nav-card">
+        <nav className="nav-card card-shadow">
             <ul className="nav-list">
                 <li>
                     <NavLink to="/about">

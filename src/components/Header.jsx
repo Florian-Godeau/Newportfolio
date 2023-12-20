@@ -5,7 +5,7 @@ import Me from "../assets/Florian Godeau.webp";
 
 function Header() {
     return (
-        <div className="header-card">
+        <header className="header-card card-shadow">
             <img src={Me} alt="Florian Godeau" className="header-image"/>
             <div className="header-content">
                 <h1>Développeur Front-End</h1>
@@ -19,7 +19,7 @@ function Header() {
                     <FontAwesomeIcon icon={faLinkedin} className="icon" />
                 </a>
             </div>
-        </div>
+        </header>
     );
 }
 

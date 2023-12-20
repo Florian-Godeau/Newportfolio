@@ -1,24 +1,27 @@
 #contact {
+
     .container {
       .form {
         display: flex;
         flex-direction: column;
-        gap: 10px; // Espace entre les éléments du formulaire
+        gap: 10px; 
   
         input, textarea {
-          background-color: #2E2F36;
-          color: white; // Couleur du texte lors de la saisie
-          border: none;
-          border-radius: 5px;
-          padding: 10px;
+            font-family: 'Play', sans-serif;
+            font-size: 16px; 
+            background-color: #2E2F36;
+            color: white; 
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
   
           &::placeholder {
-            color: #93959C; // Couleur du placeholder
+            color: #93959C; 
           }
         }
   
         input {
-          flex: 1 1 auto; // Pour les inputs de type text et email
+          flex: 1 1 auto; 
   
           &:first-child {
             margin-right: 5px;
@@ -27,7 +30,7 @@
   
         textarea {
           flex: 1 1 auto;
-          min-height: 100px; // Hauteur minimale pour le champ de message
+          min-height: 100px; 
         }
   
         .form-row {
@@ -40,16 +43,28 @@
         }
   
         .submit-button {
-          background-color: #4CAF50; // Couleur de fond du bouton
+          background-color: #304CFD; 
           color: white;
+          font-family: 'Play', sans-serif;
           border: none;
-          border-radius: 5px;
+          border-radius: 10px;
+          margin: auto;
           padding: 10px 20px;
           cursor: pointer;
           display: flex;
           align-items: center;
           justify-content: center;
-          gap: 5px; // Espace entre l'icône et le texte
+          gap: 5px; 
+          transition: transform 0.3s ease, background-color 0.3s ease;
+
+          &:hover {
+            transform: scale(1.05); 
+            background-color: darken(#304CFD, 10%); 
+          }
+    
+          &:active {
+            transform: scale(0.95); 
+          }
         }
 
         .form-row {
@@ -85,4 +100,45 @@
         }
     }
   }
+
+  .Modal-Contact {
+    background: #2c2c2e;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; 
   
+    button {
+      background-color: #304CFD;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-family: 'Play', sans-serif;
+      margin-top: 15px; 
+      transition: transform 0.3s ease, background-color 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05); 
+        background-color: darken(#304CFD, 10%); 
+      }
+
+      &:active {
+        transform: scale(0.95); 
+      }
+    }
+  }
+  
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75); 
+  }
+
