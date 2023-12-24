@@ -1,0 +1,18 @@
+.carousel-container {
+    max-width: 750px; // Ajustez cette valeur pour la largeur désirée
+    margin: auto; // Centrer le carrousel
+    border-radius: 10px;
+  
+    .carousel-root {
+  
+      .carousel .slide {
+        overflow: hidden; // Pour appliquer le border-radius aux images
+        border-radius: 10px;
+      }
+  
+      .thumbs-wrapper {
+        display: none; // Cache les vignettes
+      }
+    }
+  }
+  

@@ -4,6 +4,7 @@ import BottomContainer from "../components/BottomContainer";
 import { Route, Routes } from 'react-router-dom';
 import About from '../components/About';
 import Skills from '../components/Skills';
+import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 
 function Home() {
@@ -24,6 +25,11 @@ function Home() {
                 <Route path="/skills" element={
                     <BottomContainer>
                         <Skills />
+                    </BottomContainer>
+                } />
+                <Route path="/projects" element={
+                    <BottomContainer>
+                        <Projects />
                     </BottomContainer>
                 } />
                 <Route path="/contact" element={

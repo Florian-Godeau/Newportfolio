@@ -9,25 +9,25 @@ function Nav() {
             <ul className="nav-list">
                 <li>
                     <NavLink to="/about">
-                        <FontAwesomeIcon icon={faUser} />
+                        <FontAwesomeIcon icon={faUser} className='fa-icon'/>
                         <span>À propos</span>
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to="/skills">
-                        <FontAwesomeIcon icon={faBook} />
+                        <FontAwesomeIcon icon={faBook} className='fa-icon'/>
                         <span>Compétences</span>
                     </NavLink>
                 </li>
                 <li>
-                    
-                        <FontAwesomeIcon icon={faBriefcase} />
+                    <NavLink to="/projects">
+                        <FontAwesomeIcon icon={faBriefcase} className='fa-icon'/>
                         <span>Mes projets</span>
-                    
+                    </NavLink>
                 </li>
                 <li>
                     <NavLink to="/contact">
-                        <FontAwesomeIcon icon={faEnvelope} />
+                        <FontAwesomeIcon icon={faEnvelope} className='fa-icon'/>
                         <span>Contact</span>
                     </NavLink>
                 </li>
