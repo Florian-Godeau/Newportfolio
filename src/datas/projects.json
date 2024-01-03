@@ -13,7 +13,7 @@
         ],
         "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
         "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
-        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/booki_mockup.webp",
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/Booki.webp",
         "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/booki_mockup.webp",
         "project": "Projet 3",
         "info": "Ce site a été conçu à partir de maquettes Figma, utilisant Flexbox pour une mise en page flexible. Il est entièrement responsive et validé par W3C pour une expérience web de qualité."
@@ -32,7 +32,7 @@
         ],
         "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
         "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
-        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfsliderpic.webp",
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/Ohmyfood.webp",
         "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmyfoodimagemockup.webp",
         "image2": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfhome.webp",
         "project": "Projet 4",
@@ -40,7 +40,7 @@
     },
     {
         "id": "2",
-        "title": "Booki",
+        "title": "Print-it",
         "description": "Page d'accueil d'une agence de voyage",
         "technologies": [
             "Découpage de maquette",
@@ -52,14 +52,14 @@
         ],
         "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
         "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
-        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/booki_mockup.webp",
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/Print-It.webp",
         "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/booki_mockup.webp",
-        "project": "Projet 3",
+        "project": "Projet 5",
         "info": "Ce site a été conçu à partir de maquettes Figma, utilisant Flexbox pour une mise en page flexible. Il est entièrement responsive et validé par W3C pour une expérience web de qualité."
     },
     {
         "id": "3",
-        "title": "OhMyFood",
+        "title": "Portfolio Sophie Bluel",
         "description": "Site de réservation de retaurants proposant des menus gastronomiques",
         "technologies": [
             "Mobile First",
@@ -71,15 +71,15 @@
         ],
         "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
         "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
-        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfsliderpic.webp",
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/Sophie-Bluel.webp",
         "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmyfoodimagemockup.webp",
         "image2": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfhome.webp",
-        "project": "Projet 4",
+        "project": "Projet 6",
         "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
     },
     {
         "id": "4",
-        "title": "OhMyFood",
+        "title": "Menu-Maker by Qwenta",
         "description": "Site de réservation de retaurants proposant des menus gastronomiques",
         "technologies": [
             "Mobile First",
@@ -91,15 +91,15 @@
         ],
         "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
         "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
-        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfsliderpic.webp",
+        "picture": "https://raw.githubusercontent.com/Florian-Godeau/Newportfolio/master/src/assets/projectimg/menumakerqwenta.webp",
         "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmyfoodimagemockup.webp",
         "image2": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfhome.webp",
-        "project": "Projet 4",
+        "project": "Projet 7",
         "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
     },
     {
         "id": "5",
-        "title": "OhMyFood",
+        "title": "Kasa",
         "description": "Site de réservation de retaurants proposant des menus gastronomiques",
         "technologies": [
             "Mobile First",
@@ -111,10 +111,70 @@
         ],
         "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
         "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
-        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfsliderpic.webp",
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/Kasa.webp",
         "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmyfoodimagemockup.webp",
         "image2": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfhome.webp",
-        "project": "Projet 4",
+        "project": "Projet 8",
+        "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
+    },
+    {
+        "id": "6",
+        "title": "Portfolio Nina Carducci",
+        "description": "Site de réservation de retaurants proposant des menus gastronomiques",
+        "technologies": [
+            "Mobile First",
+            "HTML",
+            "CSS",
+            "Animations CSS",
+            "Responsive design",
+            "W3C"
+        ],
+        "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
+        "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/Nina-Carducci.webp",
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmyfoodimagemockup.webp",
+        "image2": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfhome.webp",
+        "project": "Projet 9",
+        "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
+    },
+    {
+        "id": "7",
+        "title": "724 Events",
+        "description": "Site de réservation de retaurants proposant des menus gastronomiques",
+        "technologies": [
+            "Mobile First",
+            "HTML",
+            "CSS",
+            "Animations CSS",
+            "Responsive design",
+            "W3C"
+        ],
+        "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
+        "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/724-Events.webp",
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmyfoodimagemockup.webp",
+        "image2": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfhome.webp",
+        "project": "Projet 10",
+        "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
+    },
+    {
+        "id": "8",
+        "title": "ArgentBank",
+        "description": "Site de réservation de retaurants proposant des menus gastronomiques",
+        "technologies": [
+            "Mobile First",
+            "HTML",
+            "CSS",
+            "Animations CSS",
+            "Responsive design",
+            "W3C"
+        ],
+        "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
+        "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
+        "picture": "https://raw.githubusercontent.com/Florian-Godeau/Newportfolio/master/src/assets/projectimg/Argent-Bank.webp",
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmyfoodimagemockup.webp",
+        "image2": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/ohmfhome.webp",
+        "project": "Projet 11",
         "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
     }
 ]
