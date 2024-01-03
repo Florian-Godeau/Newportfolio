@@ -41,7 +41,7 @@
     },
     {
         "id": 8,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologo.png",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologoback.png"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/vscodelogo.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/vscodelogoback.webp"
     }
 ]
