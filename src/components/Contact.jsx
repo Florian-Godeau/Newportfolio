@@ -45,39 +45,47 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact">
-      <h2>Me contacter</h2>
-      <div className="container">
-        <form ref={form} onSubmit={sendEmail} className="form">
-          <div className="form-row">
-            <div className="input-group">
-              <input type="text" name="name" placeholder="Nom" className={errors.name ? 'input-error' : ''} />
-              <span className="error-message">{errors.name || ' '}</span>
+    <section id="contact" className="contact">
+      <div className="contact__box">
+        <h2 className="contact__box__title">Me contacter</h2>
+        <p className="contact__box__text">
+          Pour toute demande ou question, n'hésitez pas à remplir le formulaire ci-dessous.<br></br>
+          Je suis à votre écoute pour discuter de vos projets et vous proposer des solutions sur mesure 
+          qui répondent à vos besoins spécifiques.<br></br> Mon objectif est de vous fournir un service de qualité, 
+          adapté à vos attentes et aux exigences de votre secteur.
+        </p>
+        <div className="contact__box__container">
+          <form ref={form} onSubmit={sendEmail} className="contact__box__container__form">
+            <div className="contact__box__container__form__row">
+              <div className="contact__box__container__form__row__input">
+                <input type="text" name="name" placeholder="Nom" className={errors.name ? 'contact__box__container__form__row__input__inputError' : ''} />
+                <span className="contact__box__container__form__row__input__errorMessage">{errors.name || ' '}</span>
+              </div>
+              <div className="contact__box__container__form__row__input">
+                <input type="email" name="email" placeholder="Email" className={errors.email ? 'contact__box__container__form__row__input__inputError' : ''} />
+                <span className="contact__box__container__form__row__input__errorMessage">{errors.email || ' '}</span>
+              </div>
             </div>
-            <div className="input-group">
-              <input type="email" name="email" placeholder="Email" className={errors.email ? 'input-error' : ''} />
-              <span className="error-message">{errors.email || ' '}</span>
+            <div className="contact__box__container__form__row__input">
+              <textarea name="message" placeholder="Message" className={errors.message ? 'contact__box__container__form__row__input__inputError' : ''} />
+              <span className="contact__box__container__form__row__input__errorMessage">{errors.message || ' '}</span>
             </div>
-          </div>
-          <div className="input-group">
-            <textarea name="message" placeholder="Message" className={errors.message ? 'input-error' : ''} />
-            <span className="error-message">{errors.message || ' '}</span>
-          </div>
-          <button className="submit-button" type="submit">
-            <FontAwesomeIcon icon={faPaperPlane} /> Envoyer
-          </button>
-        </form>
+            <button className="contact__box__container__form__submitButton" type="submit">
+              <FontAwesomeIcon icon={faPaperPlane} /> Envoyer
+            </button>
+          </form>
+        </div>
+        <Modal
+          isOpen={isModalOpen}
+          onRequestClose={() => setIsModalOpen(false)}
+          contentLabel="Message Sent Confirmation"
+          className="Modal-Contact"
+          overlayClassName="Overlay"
+        >
+          <p>Votre message a bien été envoyé. Merci de votre intérêt pour mon travail, je vous contacterais sous peu.</p>
+          <button onClick={() => setIsModalOpen(false)}>Fermer</button>
+        </Modal>
       </div>
-      <Modal
-        isOpen={isModalOpen}
-        onRequestClose={() => setIsModalOpen(false)}
-        contentLabel="Message Sent Confirmation"
-        className="Modal-Contact"
-        overlayClassName="Overlay"
-      >
-        <p>Votre message a bien été envoyé. Merci de votre intérêt pour mon travail, je vous contacterais sous peu.</p>
-        <button onClick={() => setIsModalOpen(false)}>Fermer</button>
-      </Modal>
     </section>
   );
 };

@@ -1,44 +1,30 @@
-#contact {
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    .container {
-      .form {
+  &__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__text {
+      margin-bottom: 20px;
+      text-align: center;
+      color: #fff; // ou toute autre couleur souhaitée
+      font-size: 1.1em;
+    }
+  
+    &__container {
+      padding-top: 30px;
+      
+      &__form {
         display: flex;
         flex-direction: column;
-        gap: 10px; 
+        gap: 10px;
   
-        input, textarea {
-            font-family: 'Play', sans-serif;
-            font-size: 16px; 
-            background-color: #414249;
-            color: white; 
-            border: none;
-            border-radius: 10px;
-            padding: 10px;
-        }
-  
-        input {
-          flex: 1 1 auto; 
-  
-          &:first-child {
-            margin-right: 5px;
-          }
-        }
-  
-        textarea {
-          flex: 1 1 auto;
-          min-height: 100px; 
-        }
-  
-        .form-row {
-          display: flex;
-          gap: 10px;
-  
-          @media (max-width: 600px) {
-            flex-direction: column;
-          }
-        }
-  
-        .submit-button {
+        &__submitButton {
           background-color: #304CFD; 
           color: white;
           font-family: 'Play', sans-serif;
@@ -52,89 +38,113 @@
           justify-content: center;
           gap: 5px; 
           transition: transform 0.3s ease, background-color 0.3s ease;
-
+  
           &:hover {
             transform: scale(1.05); 
             background-color: darken(#304CFD, 10%); 
           }
-    
+      
           &:active {
             transform: scale(0.95); 
           }
         }
-
-        .form-row {
-            display: flex;
-            gap: 10px;
-          
-            @media (max-width: 600px) {
-              flex-direction: column;
-            }
+        
+        &__row {
+          display: flex;
+          gap: 10px;
+    
+          @media (max-width: 600px) {
+            flex-direction: column;
           }
-          
-          .input-group {
+  
+          &__input {
             flex: 1;
             display: flex;
             flex-direction: column;
-          
-            .input-error {
+  
+            &__inputError {
               border: 1px solid red;
             }
-          
-            .error-message {
+  
+            &__errorMessage {
               color: red;
               font-size: 0.8em;
               margin-top: 5px;
               min-height: 20px;
               visibility: visible;
             }
-          
+  
             .invisible {
               visibility: hidden;
             }
           }
         }
-    }
-  }
-
-  .Modal-Contact {
-    background: #2c2c2e;
-    position: fixed; 
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center; 
-  
-    button {
-      background-color: #304CFD;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      padding: 10px 20px;
-      cursor: pointer;
-      font-family: 'Play', sans-serif;
-      margin-top: 15px; 
-      transition: transform 0.3s ease, background-color 0.3s ease;
-
-      &:hover {
-        transform: scale(1.05); 
-        background-color: darken(#304CFD, 10%); 
-      }
-
-      &:active {
-        transform: scale(0.95); 
+    
+        input, textarea {
+            font-family: 'Play', sans-serif;
+            font-size: 16px; 
+            background-color: #414249;
+            color: white; 
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    
+        input {
+          flex: 1 1 auto; 
+    
+          &:first-child {
+            margin-right: 5px;
+          }
+        }
+    
+        textarea {
+          flex: 1 1 auto;
+          min-height: 200px; 
+        }    
       }
     }
   }
+}
+
+.Modal-Contact {
+  background: #2c2c2e;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center; 
   
-  .Overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.75); 
+  button {
+    background-color: #304CFD;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: 'Play', sans-serif;
+    margin-top: 15px; 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05); 
+      background-color: darken(#304CFD, 10%); 
+    }
+
+    &:active {
+      transform: scale(0.95); 
+    }
   }
+}
+  
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75); 
+}
 

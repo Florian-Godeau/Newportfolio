@@ -38,5 +38,10 @@
         "id": 7,
         "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologo.png",
         "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologoback.png"
+    },
+    {
+        "id": 8,
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologo.png",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologoback.png"
     }
 ]
