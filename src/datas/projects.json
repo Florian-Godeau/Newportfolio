@@ -1,22 +1,22 @@
 [
     {
         "id": "0",
-        "title": "OhMyFood",
-        "description": "Site de réservation de retaurants proposant des menus gastronomiques",
+        "title": "Booki",
+        "description": "Page d'accueil d'une agence de voyage",
         "technologies": [
-            "Mobile First",
+            "Découpage de maquette",
             "HTML",
             "CSS",
-            "Animations CSS",
+            "Flexbox",
             "Responsive design",
             "W3C"
         ],
         "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
         "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
-        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/ohmyfoodimage.jpg",
-        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/ohmfhome.JPG",
-        "project": "Projet 4",
-        "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/booki_mockup.webp",
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/booki_mockup.webp",
+        "project": "Projet 3",
+        "info": "Ce site a été conçu à partir de maquettes Figma, utilisant Flexbox pour une mise en page flexible. Il est entièrement responsive et validé par W3C pour une expérience web de qualité."
     },
     {
         "id": "1",
@@ -39,22 +39,22 @@
     },
     {
         "id": "2",
-        "title": "OhMyFood",
-        "description": "Site de réservation de retaurants proposant des menus gastronomiques",
+        "title": "Booki",
+        "description": "Page d'accueil d'une agence de voyage",
         "technologies": [
-            "Mobile First",
+            "Découpage de maquette",
             "HTML",
             "CSS",
-            "Animations CSS",
+            "Flexbox",
             "Responsive design",
             "W3C"
         ],
         "page": "https://florian-godeau.github.io/Projet-OhMyFood/",
         "code": "https://github.com/Florian-Godeau/Projet-OhMyFood",
-        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/ohmyfoodimage.jpg",
-        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/ohmfhome.JPG",
-        "project": "Projet 4",
-        "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/booki_mockup.webp",
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/booki_mockup.webp",
+        "project": "Projet 3",
+        "info": "Ce site a été conçu à partir de maquettes Figma, utilisant Flexbox pour une mise en page flexible. Il est entièrement responsive et validé par W3C pour une expérience web de qualité."
     },
     {
         "id": "3",

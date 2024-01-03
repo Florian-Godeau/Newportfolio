@@ -1,18 +1,68 @@
-.carousel-container {
-    max-width: 750px; // Ajustez cette valeur pour la largeur désirée
-    margin: auto; // Centrer le carrousel
-    border-radius: 10px;
-  
-    .carousel-root {
-  
-      .carousel .slide {
-        overflow: hidden; // Pour appliquer le border-radius aux images
-        border-radius: 10px;
-      }
-  
-      .thumbs-wrapper {
-        display: none; // Cache les vignettes
-      }
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .slick-slider {
+        max-width: 26%;
+
+        .slick-list {
+            height: 608px !important; 
+        }
+
+        .slick-slide {
+            opacity: 0.5; 
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            margin: 0 5px; 
+
+            img {
+                max-height: 200px;
+                width: auto;
+                margin: auto;
+                border-radius: 10px; 
+            }
+        }
+
+        .slick-current {
+            opacity: 1; 
+            transform: scale(1.05);
+        }
     }
-  }
-  
+
+    .slider-arrows {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 20px; 
+
+        &__up {
+            background-color: #304CFD;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        &__down {
+            background-color: #304CFD;
+            color: white;
+            border: none;
+            border-radius: 50px;
+            padding: 10px;
+            margin: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}

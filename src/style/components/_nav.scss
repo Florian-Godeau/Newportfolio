@@ -13,9 +13,9 @@
     flex-direction: column;
 
     li {
-      background-color: #414249; // Couleur de fond pour tous les éléments li
-      border-radius: 10px; // Arrondir les coins si nécessaire
-      margin-bottom: 10px; // Espace entre les liens
+      background-color: #414249; 
+      border-radius: 10px; 
+      margin-bottom: 10px; 
       height: 110px;
       width: 110px;
       display: flex;
@@ -28,15 +28,15 @@
         align-items: center;
         text-decoration: none;
         color: white;
-        padding: 10px; // Espacement à l'intérieur de chaque lien
+        padding: 10px; 
   
         &:hover {
-          color: #304CFD; // Couleur de fond au survol
+          color: #304CFD; 
         }
       }
   
       .active {
-        background-color: #304CFD; // Couleur de fond pour le lien actif
+        background-color: #304CFD; 
         border-radius: 10px;
         height: 100%;
         width: 100%;
@@ -49,7 +49,7 @@
         }
       }
   
-      // Style pour les icônes
+      
       .fa-icon {
         margin-bottom: 5px;
         font-size: 30px;

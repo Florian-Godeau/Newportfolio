@@ -1,0 +1,67 @@
+.project-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__img {
+        width: 50%;
+        border-radius: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__title, &__desc, &__info {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    &__techlist {
+        display: flex; 
+        flex-wrap: wrap; 
+        gap: 10px; 
+        justify-content: center;
+
+        .tech-tag {
+            background-color: #304CFD;
+            border-radius: 10px;
+            padding: 5px 10px;
+            color: white;
+            font-size: 0.9em;
+        }
+    }
+
+    &__links {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 20px;
+
+        &__githubLink {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+            font-size: 33px;
+            color: white;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        &__siteLink {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+            font-size: 30px;
+            color: white;
+
+            &:hover {
+                transform: scale(1.1);
+            }    
+        }
+    }
+}
