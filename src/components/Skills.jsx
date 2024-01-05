@@ -6,6 +6,7 @@ function LogosList() {
   const softSkills = ["Autonomie", "Rigueur", "Adaptabilité", "Curiosité", "Empathie", "Communication"];
 
   return (
+    <div className="animate">
     <section id='skills' className="skills-container">
         <h2>Compétences</h2>
         <div className="skills-content">
@@ -24,6 +25,7 @@ function LogosList() {
             </div>
         </div>
     </section>
+    </div>
   );
 }
 

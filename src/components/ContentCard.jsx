@@ -1,11 +1,15 @@
 import React from 'react';
 
-function ContentCard({ children }) {
+function ContentCard({ children, animate }) {
+    const animationClass = animate ? 'animate' : '';
     return (
         <div className="content-card card-shadow">
-            {children}
+            <div className={animationClass}>
+                {children}
+            </div>
         </div>
     );
 }
+
 
 export default ContentCard;

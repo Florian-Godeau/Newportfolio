@@ -45,6 +45,7 @@ export default function Contact() {
   };
 
   return (
+    <div className="animate">
     <section id="contact" className="contact">
       <div className="contact__box">
         <h2 className="contact__box__title">Me contacter</h2>
@@ -87,5 +88,6 @@ export default function Contact() {
         </Modal>
       </div>
     </section>
+    </div>
   );
 };

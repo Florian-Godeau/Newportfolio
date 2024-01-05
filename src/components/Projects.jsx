@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css'; 
 import 'slick-carousel/slick/slick-theme.css';
@@ -20,7 +20,7 @@ export default function Projects() {
         vertical: true,
         verticalSwiping: true,
         beforeChange: (current, next) => setActiveProjectIndex(next),
-        arrows: false, 
+        arrows: false,
         responsive: [
             {
                 breakpoint: 768,
@@ -32,26 +32,53 @@ export default function Projects() {
         ]
     };
 
+    useEffect(() => {
+        // Trouver le bon élément DOM pour attacher l'événement wheel
+        const sliderElement = sliderRef.current?.innerSlider?.list;
+
+        const handleWheel = (e) => {
+            if (e.deltaY < 0) {
+                sliderRef.current.slickPrev();
+            } else if (e.deltaY > 0) {
+                sliderRef.current.slickNext();
+            }
+        };
+
+        if (sliderElement) {
+            sliderElement.addEventListener('wheel', handleWheel);
+        }
+
+        return () => {
+            if (sliderElement) {
+                sliderElement.removeEventListener('wheel', handleWheel);
+            }
+        };
+    }, []);
+
     return (
-        <div className="projects-container">
-            <Slider ref={sliderRef} {...settings}>
-                {projectsData.map((project, index) => (
-                    <div key={index}>
-                        <img src={project.picture} alt={project.title} />
+        <div className="animate">
+            <section id='projects'>
+                <div className="projects-container">
+                    <Slider ref={sliderRef} {...settings}>
+                        {projectsData.map((project, index) => (
+                            <div key={index}>
+                                <img src={project.picture} alt={project.title} />
+                            </div>
+                        ))}
+                    </Slider>
+                    <div className="slider-arrows">
+                        <button onClick={() => sliderRef.current.slickPrev()} className="slider-arrows__up">
+                            <FontAwesomeIcon icon={faChevronUp} />
+                        </button>
+                        <button onClick={() => sliderRef.current.slickNext()} className="slider-arrows__down">
+                            <FontAwesomeIcon icon={faChevronDown} />
+                        </button>
                     </div>
-                ))}
-            </Slider>
-            <div className="slider-arrows">
-                <button onClick={() => sliderRef.current.slickPrev()} className="slider-arrows__up">
-                    <FontAwesomeIcon icon={faChevronUp} />
-                </button>
-                <button onClick={() => sliderRef.current.slickNext()} className="slider-arrows__down">
-                    <FontAwesomeIcon icon={faChevronDown} />
-                </button>
-            </div>
-            <div className="project-description-container">
-                <ProjectsDesc project={projectsData[activeProjectIndex]} />
-            </div>
+                    <div className="project-description-container">
+                        <ProjectsDesc project={projectsData[activeProjectIndex]} />
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }

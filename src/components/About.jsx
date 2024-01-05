@@ -17,13 +17,14 @@ function About() {
                 setCurrentImageIndex((currentImageIndex + 1) % images.length); // Change l'image
                 setFadeIn(true); // Commence le fade-in
             }, 500); // Délai correspondant à la durée de l'animation de fade-out
-        }, 10000);
+        }, 5000);
 
         return () => clearInterval(intervalId);
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentImageIndex]);
 
     return (
+        <div className="animate">
         <section id="about" className='about'>
             <h2 className='about__title'>À propos de moi :</h2>
             <div className='about__content'>
@@ -50,6 +51,7 @@ function About() {
                 Mon CV <FontAwesomeIcon icon={faFile} />
             </a>
         </section>
+        </div>
     );
 }
 
