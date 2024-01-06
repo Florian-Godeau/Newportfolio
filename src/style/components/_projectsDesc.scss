@@ -8,6 +8,10 @@
         width: 50%;
         border-radius: 20px;
         margin-bottom: 20px;
+
+        @media screen and (max-width: 1440px) {
+            width: 80%;
+        }
     }
 
     &__title, &__desc, &__info {

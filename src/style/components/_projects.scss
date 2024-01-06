@@ -68,3 +68,31 @@
         }
     }
 }
+
+.desktop-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Affichage pour les écrans plus larges que 1440px */
+@media screen and (min-width: 1441px) {
+    .desktop-slider {
+        display: flex; /* ou un autre type d'affichage selon vos besoins */
+    }
+
+    .mobile-slider {
+        display: none;
+    }
+}
+
+/* Affichage pour les écrans de 1440px ou moins */
+@media screen and (max-width: 1440px) {
+    .desktop-slider {
+        display: none;
+    }
+
+    .mobile-slider {
+        display: flex; /* ou un autre type d'affichage selon vos besoins */
+    }
+}
