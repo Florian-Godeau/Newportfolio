@@ -60,6 +60,7 @@ export default function Projects() {
         <div className="animate">
             <section id='projects'>
                 <div className="projects__container">
+                    <h2 className='projects__container__title'>Mes projets</h2>
                     <div className='projects__container__desktop'>
                         <Slider className='projects__container__desktop__slider' ref={sliderRef} {...settings}>
                             {projectsData.map((project, index) => (
@@ -80,7 +81,7 @@ export default function Projects() {
                             <ProjectsDesc project={projectsData[activeProjectIndex]} />
                         </div>
                     </div>
-                    <div className='mobile'>
+                    <div className='projects__container__mobile'>
                             <MobileSlider></MobileSlider>
                     </div>    
                 </div>

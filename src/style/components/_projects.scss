@@ -1,13 +1,25 @@
 .projects__container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+
+    &__title {
+        display: none;
+
+        @include brProjects {
+            display: flex;
+        }
+    }
 
     &__desktop {
         display: flex;
         flex-direction: row;
         align-items: center;
+
+        @include brProjects {
+            display: none;
+        }
 
         &__slider {
             max-width: 26%;
@@ -74,26 +86,13 @@
             }
         }
     }
-}
 
-/* Affichage pour les écrans plus larges que 1440px */
-@media screen and (min-width: 1440px) {
-    .projects__container__desktop {
-        display: flex; /* ou un autre type d'affichage selon vos besoins */
-    }
-
-    .mobile {
+    &__mobile {
         display: none;
+
+        @include brProjects {
+            display: flex;
+        }
     }
 }
 
-/* Affichage pour les écrans de 1440px ou moins */
-@media screen and (max-width: 1440px) {
-    .projects__container__desktop {
-        display: none;
-    }
-
-    .mobile {
-        display: flex; /* ou un autre type d'affichage selon vos besoins */
-    }
-}

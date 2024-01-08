@@ -15,3 +15,15 @@
         @content;
     }
 }
+
+@mixin brHeader {
+    @media (max-width: 485px) {
+        @content;
+    }
+}
+
+@mixin brProjects {
+    @media (max-width: 1440px) {
+        @content;
+    }
+}

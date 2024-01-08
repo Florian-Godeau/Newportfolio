@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navigate } from 'react-router-dom';
 import Header from "../components/Header";
 import BottomContainer from "../components/BottomContainer";
 import { Route, Routes } from 'react-router-dom';
@@ -12,11 +13,7 @@ function Home() {
         <>
             <Header />
             <Routes>
-                <Route path="/" element={
-                    <BottomContainer>
-                        {/* Ici, vous pouvez mettre un contenu par défaut si nécessaire */}
-                    </BottomContainer>
-                } />
+            <Route path="/" element={<Navigate to="/about" />} />
                 <Route path="/about" element={
                     <BottomContainer>
                         <About />
