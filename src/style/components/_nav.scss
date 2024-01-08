@@ -1,5 +1,5 @@
 .nav-card {
-    background-color: #2c2c2e;
+    background-color: $cards-background;
     border-radius: 10px;
     padding: 10px;
     display: flex;
@@ -42,7 +42,7 @@
     }
 
     &__li {
-      background-color: #414249; 
+      background-color: $input-nav-color; 
       border-radius: 10px; 
       margin-bottom: 10px; 
       height: 110px;
@@ -50,6 +50,13 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      cursor: pointer;
+
+      &:hover {
+        .nav-card__list__li__link {
+          color: $link-bg-color; 
+        }
+      }
 
       @include tablet {
         margin-bottom: 0;
@@ -70,15 +77,11 @@
         flex-direction: column;
         align-items: center;
         text-decoration: none;
-        color: white;
+        color: $white;
         padding: 10px; 
 
         @include mobile {
           border-bottom: 5px solid transparent;
-        }
-  
-        &:hover {
-          color: #304CFD; 
         }
 
         &__icon {
@@ -92,26 +95,27 @@
       }
   
       .active {
-        background-color: #304CFD; 
+        background-color: $link-bg-color; 
         border-radius: 10px;
         height: 100%;
         width: 100%;
         padding: 0;
         justify-content: center;
         align-items: center;
+        cursor: default;
 
         @include mobile {
           background-color: unset;
           border-radius: 0;
-          border-bottom: 5px solid #304CFD;
-          color: #304CFD;
+          border-bottom: 5px solid $link-bg-color;
+          color: $link-bg-color;
         }
 
         &:hover {
           color: currentColor;
 
           @include mobile {
-            color: #304CFD;
+            color: $link-bg-color;
           }
         }
       }

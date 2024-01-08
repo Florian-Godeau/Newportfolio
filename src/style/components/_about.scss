@@ -48,8 +48,8 @@
     }
     
     &__cvLink {
-        background-color: #304CFD;
-        color: white;
+        background-color: $link-bg-color;
+        color: $white;
         padding: 10px 15px;
         border-radius: 5px;
         text-decoration: none;
@@ -60,7 +60,7 @@
 
         &:hover {
             transform: scale(1.05); 
-            background-color: darken(#304CFD, 10%); 
+            background-color: $link-bg-hover-color; 
         }
 
         svg {

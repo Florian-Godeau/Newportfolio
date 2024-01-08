@@ -54,7 +54,7 @@
             margin: 10px 20px; 
     
             &__up {
-                background-color: #304CFD;
+                background-color: $link-bg-color;
                 color: white;
                 border: none;
                 border-radius: 50px;
@@ -65,13 +65,13 @@
     
                 &:hover {
                     transform: scale(1.1); 
-                    background-color: darken(#304CFD, 10%); 
+                    background-color: $link-bg-hover-color; 
                 }
             }
     
             &__down {
-                background-color: #304CFD;
-                color: white;
+                background-color: $link-bg-color;
+                color: $white;
                 border: none;
                 border-radius: 50px;
                 padding: 10px;
@@ -81,7 +81,7 @@
     
                 &:hover {
                     transform: scale(1.1); 
-                    background-color: darken(#304CFD, 10%); 
+                    background-color: $link-bg-hover-color; 
                 }
             }
         }

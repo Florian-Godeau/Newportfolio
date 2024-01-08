@@ -32,10 +32,10 @@
         justify-content: center;
 
         &__tag {
-            background-color: #304CFD;
+            background-color: $link-bg-color;
             border-radius: 10px;
             padding: 5px 10px;
-            color: white;
+            color: $white;
             font-size: 0.9em;
         }
     }
@@ -53,7 +53,7 @@
             cursor: pointer;
             transition: transform 0.3s;
             font-size: 33px;
-            color: white;
+            color: $white;
 
             &:hover {
                 transform: scale(1.1);
@@ -67,7 +67,7 @@
             cursor: pointer;
             transition: transform 0.3s;
             font-size: 30px;
-            color: white;
+            color: $white;
 
             &:hover {
                 transform: scale(1.1);

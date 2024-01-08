@@ -41,13 +41,13 @@
         &__divider {
             width: 1px;
             height: 100%;
-            background-color: white;
+            background-color: $white;
 
             @include mobile {
                 width: 80%; 
                 height: 1px; 
                 margin: 20px auto; 
-                background-color: white;
+                background-color: $white;
                 display: block; 
             }
         }

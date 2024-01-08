@@ -1,9 +1,6 @@
-$content-card-bg-color: #2c2c2e;
-$border-radius: 10px;
-
 .content-card {
-  background-color: $content-card-bg-color;
-  border-radius: $border-radius;
+  background-color: $cards-background;
+  border-radius: 10px;
   padding: 10px;
   flex: 1;
   animation: fadeIn 1s ease-out forwards;

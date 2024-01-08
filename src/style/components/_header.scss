@@ -1,11 +1,7 @@
-$header-bg-color: #2c2c2e;
-$header-img-size: 100px;
-$icon-size: 24px;
-
 .header-card {
   display: flex;
   align-items: center;
-  background-color: $header-bg-color;
+  background-color: $cards-background;
   border-radius: 10px;
   padding: 10px;
   margin-bottom: 1.875rem;
@@ -22,7 +18,7 @@ $icon-size: 24px;
     }
 
   &__img {
-    width: $header-img-size;
+    width: 100px;
     height: auto;
     margin-right: 15px;
     margin-left: 5px;
@@ -90,7 +86,7 @@ $icon-size: 24px;
     &__divider {
       width: 1px;
       height: 140px;
-      background-color: white;
+      background-color: $white;
       margin: 0 20px;
 
       @include tablet {
@@ -130,30 +126,41 @@ $icon-size: 24px;
     
         &__link {
           margin: 0 10px;
+
+          :hover {
+            color: $link-bg-color;
+          }
     
           &__icon {
-            width: $icon-size;
+            width: 24px;
             height: auto;
-            color: white;
+            color: $white;
           }
         }
       }
   
       &__loc {
+
+        &:hover {
+          .header-card__box__wrapper__loc__link__icon {
+            background-color: $link-bg-color; 
+            border-color: $link-bg-color;
+          }
+        }
   
         &__link {
           display: flex;
           align-items: center;
-          color: white;
+          color: $white;
           text-decoration: none;
   
           &__icon {
-              background-color: white;
-              border: 1px solid white;
+              background-color: $white;
+              border: 1px solid $white;
               border-radius: 4px;
               padding: 4px 6px;
               margin-right: 10px;
-              color: $header-bg-color;
+              color: $cards-background;
           }
 
           &__text {

@@ -16,7 +16,7 @@
     &__text {
       margin-bottom: 20px;
       text-align: center;
-      color: #fff;
+      color: $white;
       font-size: 17px;
 
       @include mobile {
@@ -37,8 +37,8 @@
         gap: 10px;
   
         &__submitButton {
-          background-color: #304CFD; 
-          color: white;
+          background-color: $link-bg-color; 
+          color: $white;
           font-family: 'Play', sans-serif;
           border: none;
           border-radius: 10px;
@@ -53,7 +53,7 @@
   
           &:hover {
             transform: scale(1.05); 
-            background-color: darken(#304CFD, 10%); 
+            background-color: $link-bg-hover-color; 
           }
       
           &:active {
@@ -75,11 +75,11 @@
             flex-direction: column;
   
             &__inputError {
-              border: 1px solid red;
+              border: 1px solid $error-color;
             }
   
             &__errorMessage {
-              color: red;
+              color: $error-color;
               font-size: 0.8em;
               margin-top: 5px;
               min-height: 20px;
@@ -95,8 +95,8 @@
         input, textarea {
             font-family: 'Play', sans-serif;
             font-size: 16px; 
-            background-color: #414249;
-            color: white; 
+            background-color: $input-nav-color;
+            color: $white; 
             border: none;
             border-radius: 10px;
             padding: 10px;
@@ -120,7 +120,7 @@
 }
 
 .Modal-Contact {
-  background: #2c2c2e;
+  background: $cards-background;
   position: fixed; 
   top: 50%;
   left: 50%;
@@ -130,8 +130,8 @@
   text-align: center; 
   
   &__button {
-    background-color: #304CFD;
-    color: white;
+    background-color: $link-bg-color;
+    color: $white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -142,7 +142,7 @@
 
     &:hover {
       transform: scale(1.05); 
-      background-color: darken(#304CFD, 10%); 
+      background-color: $link-bg-hover-color; 
     }
 
     &:active {
