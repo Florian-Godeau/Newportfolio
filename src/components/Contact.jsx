@@ -83,8 +83,8 @@ export default function Contact() {
           className="Modal-Contact"
           overlayClassName="Overlay"
         >
-          <p>Votre message a bien été envoyé. Merci de votre intérêt pour mon travail, je vous contacterais sous peu.</p>
-          <button onClick={() => setIsModalOpen(false)}>Fermer</button>
+          <p className="Modal-Contact__text">Votre message a bien été envoyé. Merci de votre intérêt pour mon travail, je vous contacterais sous peu.</p>
+          <button className="Modal-Contact__button" onClick={() => setIsModalOpen(false)}>Fermer</button>
         </Modal>
       </div>
     </section>

@@ -6,29 +6,29 @@ import { faUser, faBook, faBriefcase, faEnvelope } from '@fortawesome/free-solid
 function Nav() {
     return (
         <nav className="nav-card card-shadow">
-            <ul className="nav-list">
-                <li>
-                    <NavLink to="/about">
-                        <FontAwesomeIcon icon={faUser} className='fa-icon'/>
-                        <span>À propos</span>
+            <ul className="nav-card__list">
+                <li className='nav-card__list__li'>
+                    <NavLink className="nav-card__list__li__link" to="/about">
+                        <FontAwesomeIcon icon={faUser} className='nav-card__list__li__link__icon fa-icon'/>
+                        <span className='nav-card__list__li__link__text'>À propos</span>
                     </NavLink>
                 </li>
-                <li>
-                    <NavLink to="/skills">
-                        <FontAwesomeIcon icon={faBook} className='fa-icon'/>
-                        <span>Compétences</span>
+                <li className='nav-card__list__li'>
+                    <NavLink className="nav-card__list__li__link" to="/skills">
+                        <FontAwesomeIcon icon={faBook} className='nav-card__list__li__link__icon fa-icon'/>
+                        <span className='nav-card__list__li__link__text'>Compétences</span>
                     </NavLink>
                 </li>
-                <li>
-                    <NavLink to="/projects">
-                        <FontAwesomeIcon icon={faBriefcase} className='fa-icon'/>
-                        <span>Mes projets</span>
+                <li className='nav-card__list__li'>
+                    <NavLink className="nav-card__list__li__link" to="/projects">
+                        <FontAwesomeIcon icon={faBriefcase} className='nav-card__list__li__link__icon fa-icon'/>
+                        <span className='nav-card__list__li__link__text'>Mes projets</span>
                     </NavLink>
                 </li>
-                <li>
-                    <NavLink to="/contact">
-                        <FontAwesomeIcon icon={faEnvelope} className='fa-icon'/>
-                        <span>Contact</span>
+                <li className='nav-card__list__li'>
+                    <NavLink className="nav-card__list__li__link" to="/contact">
+                        <FontAwesomeIcon icon={faEnvelope} className='nav-card__list__li__link__icon fa-icon'/>
+                        <span className='nav-card__list__li__link__text'>Contact</span>
                     </NavLink>
                 </li>
             </ul>

@@ -1,5 +1,9 @@
 .bottom-container {
     display: flex;
     gap: 1.875rem;
+
+    @include tablet {
+      flex-direction: column;
+    }
   }
   

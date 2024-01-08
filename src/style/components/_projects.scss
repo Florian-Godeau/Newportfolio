@@ -1,98 +1,99 @@
-.projects-container {
+.projects__container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 
-    .slick-slider {
-        max-width: 26%;
-
-        .slick-list {
-            height: 608px !important; 
-        }
-
-        .slick-slide {
-            opacity: 0.5; 
-            transition: transform 0.3s ease, opacity 0.3s ease;
-            margin: 0 5px; 
-
-            img {
-                max-height: 200px;
-                width: auto;
-                margin: auto;
-                border-radius: 10px; 
-            }
-        }
-
-        .slick-current {
-            opacity: 1; 
-            transform: scale(1.05);
-        }
-    }
-
-    .slider-arrows {
+    &__desktop {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        margin: 10px 20px; 
 
-        &__up {
-            background-color: #304CFD;
-            color: white;
-            border: none;
-            border-radius: 50px;
-            padding: 10px;
-            margin: 5px;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-
-            &:hover {
-                transform: scale(1.1); 
-                background-color: darken(#304CFD, 10%); 
+        &__slider {
+            max-width: 26%;
+    
+            .slick-list {
+                height: 608px !important; 
+            }
+    
+            .slick-slide {
+                opacity: 0.5; 
+                transition: transform 0.3s ease, opacity 0.3s ease;
+                margin: 0 5px; 
+    
+                .desktop-slider-img {
+                    max-height: 200px;
+                    width: auto;
+                    margin: auto;
+                    border-radius: 10px; 
+                }
+            }
+    
+            .slick-current {
+                opacity: 1; 
+                transform: scale(1.05);
             }
         }
 
-        &__down {
-            background-color: #304CFD;
-            color: white;
-            border: none;
-            border-radius: 50px;
-            padding: 10px;
-            margin: 5px;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-
-            &:hover {
-                transform: scale(1.1); 
-                background-color: darken(#304CFD, 10%); 
+        &__slider-arrows {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 20px; 
+    
+            &__up {
+                background-color: #304CFD;
+                color: white;
+                border: none;
+                border-radius: 50px;
+                padding: 10px;
+                margin: 5px;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+    
+                &:hover {
+                    transform: scale(1.1); 
+                    background-color: darken(#304CFD, 10%); 
+                }
+            }
+    
+            &__down {
+                background-color: #304CFD;
+                color: white;
+                border: none;
+                border-radius: 50px;
+                padding: 10px;
+                margin: 5px;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+    
+                &:hover {
+                    transform: scale(1.1); 
+                    background-color: darken(#304CFD, 10%); 
+                }
             }
         }
     }
-}
-
-.desktop-slider {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 /* Affichage pour les écrans plus larges que 1440px */
-@media screen and (min-width: 1441px) {
-    .desktop-slider {
+@media screen and (min-width: 1440px) {
+    .projects__container__desktop {
         display: flex; /* ou un autre type d'affichage selon vos besoins */
     }
 
-    .mobile-slider {
+    .mobile {
         display: none;
     }
 }
 
 /* Affichage pour les écrans de 1440px ou moins */
 @media screen and (max-width: 1440px) {
-    .desktop-slider {
+    .projects__container__desktop {
         display: none;
     }
 
-    .mobile-slider {
+    .mobile {
         display: flex; /* ou un autre type d'affichage selon vos besoins */
     }
 }

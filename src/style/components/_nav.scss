@@ -3,10 +3,19 @@
     border-radius: 10px;
     padding: 10px;
     display: flex;
-    flex-direction: column;
     animation: fadeIn 1s ease-out forwards;
     animation-delay: 0.5s;
     opacity: 0;
+
+    @include mobile {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      z-index: 10;
+      border-radius: 0px;
+      padding: 0;
+    }
 
     @keyframes fadeIn {
         from {
@@ -17,14 +26,22 @@
         }
     }
   
-  .nav-list {
+  &__list {
     list-style: none;
     padding: 0;
     gap: 32px;
     display: flex;
     flex-direction: column;
 
-    li {
+    @include tablet {
+      flex-direction: row;
+      margin: 0;
+      justify-content: space-around;
+      width: 100%;
+      gap: 0;
+    }
+
+    &__li {
       background-color: #414249; 
       border-radius: 10px; 
       margin-bottom: 10px; 
@@ -33,17 +50,44 @@
       display: flex;
       justify-content: center;
       align-items: center;
+
+      @include tablet {
+        margin-bottom: 0;
+      }
+
+      @include mobile {
+        background-color: unset;
+        height: unset;
+        font-size: small;
+      }
+
+      @include small-mobile {
+        font-size: 10px;
+      }
   
-      a {
+      &__link {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-decoration: none;
         color: white;
         padding: 10px; 
+
+        @include mobile {
+          border-bottom: 5px solid transparent;
+        }
   
         &:hover {
           color: #304CFD; 
+        }
+
+        &__icon {
+          margin-bottom: 5px;
+          font-size: 30px;
+
+          @include mobile {
+            font-size: x-large;
+          }
         }
       }
   
@@ -56,15 +100,20 @@
         justify-content: center;
         align-items: center;
 
+        @include mobile {
+          background-color: unset;
+          border-radius: 0;
+          border-bottom: 5px solid #304CFD;
+          color: #304CFD;
+        }
+
         &:hover {
           color: currentColor;
+
+          @include mobile {
+            color: #304CFD;
+          }
         }
-      }
-  
-      
-      .fa-icon {
-        margin-bottom: 5px;
-        font-size: 30px;
       }
     }
   }

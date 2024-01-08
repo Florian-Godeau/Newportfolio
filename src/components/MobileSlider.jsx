@@ -26,31 +26,31 @@ const Slidertest = () => {
     };
 
     return (
-        <div className="slidertest">
-            <div className="carrousel-container">
-                <div className='carrousel-container__slider'>
-                    <button onClick={goToPrev} className="carousel-arrow-left">
+        <div className="mobile__slider">
+            <div className="mobile__slider__container">
+                <div className='mobile__slider__container__slider'>
+                    <button onClick={goToPrev} className="mobile__slider__container__slider__arrow">
                         <FontAwesomeIcon icon={faChevronLeft} />
                     </button>
-                    <img className="slide-img" src={projectsData[currentIndex].picture} alt={projectsData[currentIndex].title} />
-                    <button onClick={goToNext} className="carousel-arrow-right">
+                    <img className="mobile__slider__container__slider__slide-img" src={projectsData[currentIndex].picture} alt={projectsData[currentIndex].title} />
+                    <button onClick={goToNext} className="mobile__slider__container__slider__arrow">
                         <FontAwesomeIcon icon={faChevronRight} />
                     </button>
                 </div>
-                <div className="project-info">
+                <div className="mobile__slider__container__project-info">
                     <h3>{projectsData[currentIndex].title}</h3>
                     <p>{projectsData[currentIndex].description}</p>
-                    <button className="project-info__button" onClick={openModal}>En savoir plus</button>
+                    <button className="mobile__slider__container__project-info__button" onClick={openModal}>En savoir plus</button>
                 </div>
             </div>
             <Modal
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
                 contentLabel="Project Details"
-                className="Modal"
-                overlayClassName="Overlay"
+                className="project-modal"
+                overlayClassName="project-overlay"
             >
-                <button onClick={closeModal} className="modal-close-button">
+                <button onClick={closeModal} className="project-modal__close-button">
                     <FontAwesomeIcon icon={faXmark} />
                 </button>
                 <ProjectsDesc project={projectsData[currentIndex]} />

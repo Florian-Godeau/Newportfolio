@@ -19,13 +19,19 @@
         margin-bottom: 15px;
     }
 
+    &__desc, &__info {
+        @include mobile {
+            font-size: 15.8px;
+        }
+    }
+
     &__techlist {
         display: flex; 
         flex-wrap: wrap; 
         gap: 10px; 
         justify-content: center;
 
-        .tech-tag {
+        &__tag {
             background-color: #304CFD;
             border-radius: 10px;
             padding: 5px 10px;

@@ -1,4 +1,4 @@
-.slidertest {
+.mobile__slider {
     max-width: 1240px;
     margin: auto;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
   
-    .carrousel-container {
+    &__container {
         text-align: center;
         position: relative;
 
@@ -15,16 +15,37 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
+
+            &__slide-img {
+                max-width: 75%;
+                height: auto;
+                border-radius: 30px;
+                margin: 0 10px;
+            }
+
+            &__arrow {
+                background-color: #304CFD;
+                color: white;
+                border: none;
+                border-radius: 50px;
+                padding: 10px 20px;
+                cursor: pointer;
+                transition: transform 0.3s ease;
+                font-size: xx-large;
+
+                @include mobile {
+                    padding: 5px 10px;
+                    font-size: inherit;
+                }
+    
+                &:hover {
+                    transform: scale(1.1);
+                    background-color: darken(#304CFD, 10%);
+                }
+            }
         }
   
-        .slide-img {
-            max-width: 75%;
-            height: auto;
-            border-radius: 30px;
-            margin: 0 10px;
-        }
-  
-        .project-info {
+        &__project-info {
             animation: fadeIn 1s ease-out;
             h3 { margin-top: 10px; }
             p { margin-top: 5px; }
@@ -51,26 +72,10 @@
                 }
             }
         }
-
-        .carousel-arrow-left, .carousel-arrow-right {
-            background-color: #304CFD;
-            color: white;
-            border: none;
-            border-radius: 50px;
-            padding: 5px 20px;
-            cursor: pointer;
-            transition: transform 0.3s ease;
-            font-size: xxx-large;
-
-            &:hover {
-                transform: scale(1.1);
-                background-color: darken(#304CFD, 10%);
-            }
-        }
     }
 }
 
-.Modal {
+.project-modal {
     background: #2c2c2e;
     padding: 20px;
     border-radius: 10px;
@@ -79,9 +84,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 680px;
-    width: 90%;
+    width: 80%;
 
-    .modal-close-button {
+    @include mobile {
+        top: 45%;
+    }
+
+    &__close-button {
         position: absolute;
         top: 10px;
         right: 10px;
@@ -105,7 +114,7 @@
     }
 }
 
-.Overlay {
+.project-overlay {
     position: fixed;
     top: 0;
     left: 0;

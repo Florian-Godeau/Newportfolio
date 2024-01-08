@@ -9,15 +9,27 @@
     justify-content: center;
     align-items: center;
 
+    @include tablet {
+      padding-bottom: 20px;
+    }
+
     &__text {
       margin-bottom: 20px;
       text-align: center;
-      color: #fff; // ou toute autre couleur souhaitée
-      font-size: 1.1em;
+      color: #fff;
+      font-size: 17px;
+
+      @include mobile {
+        font-size: 15.8px;
+      }
     }
   
     &__container {
       padding-top: 30px;
+
+      @include mobile {
+        width: 80%;
+      }
       
       &__form {
         display: flex;
@@ -117,7 +129,7 @@
   border-radius: 10px;
   text-align: center; 
   
-  button {
+  &__button {
     background-color: #304CFD;
     color: white;
     border: none;

@@ -21,28 +21,58 @@ $icon-size: 24px;
         }
     }
 
-  .header-image {
+  &__img {
     width: $header-img-size;
     height: auto;
     margin-right: 20px;
     border-radius: 10%;
   }
 
-  .header-content {
+  &__content {
     flex-grow: 1;
   }
 
-  .social-links {
-    display: flex;
-    align-items: center;
+  &__wrapper {
 
-    a {
-      margin: 0 10px;
+    &__social {
+      display: flex;
+      align-items: center;
+  
+      &__link {
+        margin: 0 10px;
+  
+        &__icon {
+          width: $icon-size;
+          height: auto;
+          color: white;
+        }
+      }
+    }
 
-      .icon {
-        width: $icon-size;
-        height: auto;
+    &__loc {
+
+      &__link {
+        display: flex;
+        align-items: center;
         color: white;
+        text-decoration: none;
+
+        &__icon {
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 4px;
+            padding: 4px 6px;
+            margin-right: 10px;
+            color: $header-bg-color;
+        }
+
+        &__text {
+            font-weight: normal;
+
+            strong {
+                font-weight: bold;
+            }
+        }
       }
     }
   }

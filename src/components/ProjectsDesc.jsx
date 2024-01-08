@@ -16,7 +16,7 @@ function ProjectsDesc({ project }) {
             <p className="project-description__info">{project.info}</p>
             <div className="project-description__techlist">
                 {project.technologies.map((tech, index) => (
-                    <span className="tech-tag" key={index}>{tech}</span>
+                    <span className="project-description__techlist__tag" key={index}>{tech}</span>
                 ))}
             </div>
             <div className="project-description__links">

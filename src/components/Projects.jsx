@@ -59,20 +59,20 @@ export default function Projects() {
     return (
         <div className="animate">
             <section id='projects'>
-                <div className="projects-container">
-                    <div className='desktop-slider'>
-                        <Slider ref={sliderRef} {...settings}>
+                <div className="projects__container">
+                    <div className='projects__container__desktop'>
+                        <Slider className='projects__container__desktop__slider' ref={sliderRef} {...settings}>
                             {projectsData.map((project, index) => (
                                 <div key={index}>
-                                    <img src={project.picture} alt={project.title} />
+                                    <img className="desktop-slider-img" src={project.picture} alt={project.title} />
                                 </div>
                             ))}
                         </Slider>
-                        <div className="slider-arrows">
-                            <button onClick={() => sliderRef.current.slickPrev()} className="slider-arrows__up">
+                        <div className="projects__container__desktop__slider-arrows">
+                            <button onClick={() => sliderRef.current.slickPrev()} className="projects__container__desktop__slider-arrows__up">
                                 <FontAwesomeIcon icon={faChevronUp} />
                             </button>
-                            <button onClick={() => sliderRef.current.slickNext()} className="slider-arrows__down">
+                            <button onClick={() => sliderRef.current.slickNext()} className="projects__container__desktop__slider-arrows__down">
                                 <FontAwesomeIcon icon={faChevronDown} />
                             </button>
                         </div>
@@ -80,7 +80,7 @@ export default function Projects() {
                             <ProjectsDesc project={projectsData[activeProjectIndex]} />
                         </div>
                     </div>
-                    <div className='mobile-slider'>
+                    <div className='mobile'>
                             <MobileSlider></MobileSlider>
                     </div>    
                 </div>

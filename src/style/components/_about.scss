@@ -9,6 +9,11 @@
     &__content {
         display: flex;
         flex-direction: row;
+        align-items: center;
+
+        @include mobile {
+            flex-direction: column;
+        }
 
         &__imageContainer {
             padding-right: 20px;
@@ -17,6 +22,10 @@
                 border-radius: 10px;
                 opacity: 0;
                 transition: opacity 0.5s ease-in-out;
+
+                @media screen and (max-width: 1210px) {
+                    height: 250px;
+                }
 
                 &.fade-in {
                     opacity: 1;
@@ -30,7 +39,11 @@
 
         &__text {
             text-align: center;
-            font-size: 18px;
+            font-size: 17px;
+
+            @media screen and (max-width: 1210px) {
+                font-size: 15.8px;
+            }
         }
     }
     
