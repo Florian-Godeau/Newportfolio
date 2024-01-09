@@ -47,7 +47,7 @@ function About() {
                     Découvrez mes travaux et n'hésitez pas à me contacter pour discuter de votre projet.
                 </p>
             </div>
-            <a className='about__cvLink' href="/path-to-your-CV.pdf" target="_blank" rel="noreferrer">
+            <a className='about__cvLink' href="https://raw.githubusercontent.com/Florian-Godeau/Newportfolio/master/src/assets/CV/CV%20Florian%20Godeau%202024.pdf" target="_blank" rel="noreferrer">
                 Mon CV <FontAwesomeIcon icon={faFile} />
             </a>
         </section>
