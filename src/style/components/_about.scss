@@ -23,9 +23,11 @@
                 opacity: 0;
                 transition: opacity 0.5s ease-in-out;
                 height: 400px;
+                width: 267px;
 
                 @media screen and (max-width: 1210px) {
                     height: 250px;
+                    width: 166px;
                 }
 
                 &.fade-in {
