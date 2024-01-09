@@ -15,6 +15,7 @@ function Home() {
             <Header />
             <Routes>
             <Route path="/" element={<Navigate to="/about" />} />
+            <Route path="/*" element={<Navigate to="/about" />} />
                 <Route path="/about" element={
                     <BottomContainer>
                         <About />
