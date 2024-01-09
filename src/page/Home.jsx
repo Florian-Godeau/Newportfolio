@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import BottomContainer from "../components/BottomContainer";
 import { Route, Routes } from 'react-router-dom';
 import About from '../components/About';
@@ -35,6 +36,7 @@ function Home() {
                     </BottomContainer>
                 } />
             </Routes>
+            <Footer />
         </>
     );
 }

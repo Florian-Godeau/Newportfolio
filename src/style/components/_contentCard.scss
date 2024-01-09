@@ -7,10 +7,6 @@
   animation-delay: 1s;
   opacity: 0;
 
-  @include mobile {
-    margin-bottom: 5rem;
-  }
-
   @keyframes fadeIn {
       from {
           opacity: 0;
