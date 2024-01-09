@@ -1,47 +1,47 @@
 [
     {
         "id": 0,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logohtml.png",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logohtmlback.png"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logohtml-large.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logohtmlback-large.webp"
     },
     {
         "id": 1,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logocss.png",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logocssback.png"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logocss-large.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logocssback-large.webp"
     },
     {
         "id": 2,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logojs.png",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/javascriptlogoback.png"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logojs-large.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logojsback-large.webp"
     },
     {
         "id": 3,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logoreact.png",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logoreactback.png"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logoreact-large.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logoreactback-large.webp"
     },
     {
         "id": 4,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/reduxlogoround.png",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logoreduxback.png"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logoredux-large.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logoreduxback-large.webp"
     },
     {
         "id": 5,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/sasslogo.png",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/sasslogoback.png"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logosass-large.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logosassback-large.webp"
     },
     {
         "id": 6,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/figma_logo_icon_147289.png",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/figmalogoback.png"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logoagile-large.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logoagileback-large.webp"
     },
     {
         "id": 7,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologo.png",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologoback.png"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logoseo-large.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logoseoback-large.webp"
     },
     {
         "id": 8,
-        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/vscodelogo.webp",
-        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/vscodelogoback.webp"
+        "imageFront": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logovscode-large.webp",
+        "imageBack": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/logoimg/logovscodeback-large.webp"
     }
 ]

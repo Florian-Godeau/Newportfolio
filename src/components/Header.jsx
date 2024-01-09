@@ -3,9 +3,11 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import Me from "../assets/FlorianGodeauimg/FlorianGodeau-medium.webp";
 
 function Header() {
+
+    const Me = "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/FlorianGodeauimg/FlorianGodeau-medium.webp";
+    
     return (
         <header className="header-card card-shadow">
             <img src={Me} alt="Florian Godeau" className="header-card__img"/>

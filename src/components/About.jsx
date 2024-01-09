@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import Me from "../assets/FlorianGodeauimg/FlorianGodeau-xlarge.webp";
-import SecondImage from "../assets/FlorianGodeauimg/FlorianGodeauKiwi-xlarge.webp"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 
 function About() {
+    const Me = "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/FlorianGodeauimg/FlorianGodeau-xlarge.webp";
+    const SecondImage = "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/FlorianGodeauimg/FlorianGodeauKiwi-xlarge.webp";
     const images = [Me, SecondImage];
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [fadeIn, setFadeIn] = useState(true);
