@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faLocationDot, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import Me from "../assets/Florian Godeau.webp";
+import Me from "../assets/FlorianGodeauimg/FlorianGodeau-medium.webp";
 
 function Header() {
     return (

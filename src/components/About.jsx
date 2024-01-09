@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import Me from "../assets/Florian Godeau.webp";
-import SecondImage from "../assets/photokiwismall.webp"; 
+import Me from "../assets/FlorianGodeauimg/FlorianGodeau-xlarge.webp";
+import SecondImage from "../assets/FlorianGodeauimg/FlorianGodeauKiwi-xlarge.webp"; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
 
@@ -11,12 +11,12 @@ function About() {
 
     useEffect(() => {
         const intervalId = setInterval(() => {
-            setFadeIn(false); // Commence le fade-out
+            setFadeIn(false); 
 
             setTimeout(() => {
-                setCurrentImageIndex((currentImageIndex + 1) % images.length); // Change l'image
-                setFadeIn(true); // Commence le fade-in
-            }, 500); // Délai correspondant à la durée de l'animation de fade-out
+                setCurrentImageIndex((currentImageIndex + 1) % images.length); 
+                setFadeIn(true); 
+            }, 500); 
         }, 5000);
 
         return () => clearInterval(intervalId);
