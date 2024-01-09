@@ -19,13 +19,14 @@
 
   &__img {
     width: 100px;
-    height: auto;
+    height: 150px;
     margin-right: 15px;
     margin-left: 5px;
     border-radius: 10%;
 
     @include tablet {
       width: 130px;
+      height: 195px;
     }
 
     @include mobile {
