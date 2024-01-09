@@ -19,21 +19,21 @@ function Header() {
                 <div className="header-card__box__divider"></div>
                 <div className='header-card__box__wrapper'>
                     <div className="header-card__box__wrapper__social">
-                        <a href="https://github.com/Florian-Godeau" target="_blank" rel="noreferrer" className="header-card__box__wrapper__social__link">
+                        <a href="https://github.com/Florian-Godeau" target="_blank" rel="noreferrer" title="Lien vers ma page GitHub" className="header-card__box__wrapper__social__link">
                             <FontAwesomeIcon className='header-card__box__wrapper__social__link__icon' icon={faGithub} />
                         </a>
-                        <a href="https://www.linkedin.com/in/florian-godeau-650278267/" target="_blank" rel="noreferrer" className="header-card__box__wrapper__social__link">
+                        <a href="https://www.linkedin.com/in/florian-godeau-650278267/" target="_blank" rel="noreferrer" title="Lien vers mon profil LinkedIn" className="header-card__box__wrapper__social__link">
                             <FontAwesomeIcon className='header-card__box__wrapper__social__link__icon' icon={faLinkedin} />
                         </a>
-                        <a href="https://discordapp.com/users/184657390233321472/" target="_blank" rel="noreferrer" className="header-card__box__wrapper__social__link">
+                        <a href="https://discordapp.com/users/184657390233321472/" target="_blank" rel="noreferrer" title="Contactez-moi sur Discord" className="header-card__box__wrapper__social__link">
                             <FontAwesomeIcon className='header-card__box__wrapper__social__link__icon' icon={faDiscord} />
                         </a>
-                        <NavLink className="header-card__box__wrapper__social__link" to="/contact">
+                        <NavLink title="Contactez-moi" className="header-card__box__wrapper__social__link" to="/contact">
                             <FontAwesomeIcon icon={faEnvelope} className='header-card__box__wrapper__social__link__icon'/>
                         </NavLink>
                     </div>
                     <div className='header-card__box__wrapper__loc'>
-                        <a href="https://www.google.com/maps/place/Villette-d'Anthon/" target="_blank" rel="noreferrer" className="header-card__box__wrapper__loc__link">
+                        <a href="https://www.google.com/maps/place/Villette-d'Anthon/" target="_blank" rel="noreferrer" title="Voir ma Localisation sur Google Map" className="header-card__box__wrapper__loc__link">
                             <FontAwesomeIcon className="header-card__box__wrapper__loc__link__icon" icon={faLocationDot} />
                             <div className='header-card__box__wrapper__loc__link__text'>
                                 <span className="header-card__box__wrapper__loc__link__text__title"><strong>Localisation : </strong></span>
