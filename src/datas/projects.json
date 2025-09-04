@@ -1,6 +1,25 @@
 [
     {
         "id": "0",
+        "title": "Lucie Plumeria - Sophrologue",
+        "description": "Site de la Sophrologue Lucie Plumeria",
+        "technologies": [
+            "React",
+            "Sass",
+            "Optimisation web",
+            "Responsive design",
+            "SEO"
+        ],
+        "page": "https://https://lucieplumeria.com/",
+        "code": "https://github.com/Florian-Godeau/lucieplumeria",
+        "picture": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/sliderimg/lucie-logo.webp",
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/descimg/luciemockup.webp",
+        "image2": "https://cdn.jsdelivr.net/gh/Florian-Godeau/Newportfolio@master/src/assets/projectimg/descimg/luciesite.webp",
+        "project": "Projet 12",
+        "info": "Ce site a été réalisé à la demande de la sophrologue Lucie Plumeria, afin de fournir à ses clients des informations et la possibilité de prendre des rendez-vous en ligne."
+    },
+    {
+        "id": "1",
         "title": "Booki",
         "description": "Page d'accueil d'une agence de voyage",
         "technologies": [
@@ -20,7 +39,7 @@
         "info": "Ce site a été conçu à partir de maquettes Figma, utilisant Flexbox pour une mise en page flexible. Il est entièrement responsive et validé par W3C pour une expérience web de qualité."
     },
     {
-        "id": "1",
+        "id": "2",
         "title": "OhMyFood",
         "description": "Site de réservation de retaurants proposant des menus gastronomiques",
         "technologies": [
@@ -40,7 +59,7 @@
         "info": "Ce site a été conçu en suivant une approche mobile first. Il intègre des animations CSS modernes pour améliorer l'interaction utilisateur et rendre le site plus dynamique."
     },
     {
-        "id": "2",
+        "id": "3",
         "title": "Print-it",
         "description": "Site vitrine d'une imprimerie",
         "technologies": [
@@ -57,7 +76,7 @@
         "info": "Projet d'initiation Javascript : création d'un carrousel web avec navigation, bullet points, défilement infini, et Event Listeners. Focus sur l'expérience utilisateur."
     },
     {
-        "id": "3",
+        "id": "4",
         "title": "Portfolio Sophie Bluel",
         "description": "Site portfolio d’une architecte d’intérieur",
         "technologies": [
@@ -75,7 +94,7 @@
         "info": "Création d'une page de présentation pour l'architecte avec filtrage, développement d'une page de connexion sécurisée, conception d'une modale pour la gestion de projets, et utilisation de JavaScript avec API pour la dynamique des données."
     },
     {
-        "id": "4",
+        "id": "5",
         "title": "Menu-Maker by Qwenta",
         "description": "Site de création de menu pour les restaurateurs",
         "technologies": [
@@ -93,7 +112,7 @@
         "info": "Planifaction du développement de Menu Maker : plan de développement, spécifications techniques, méthodologie agile, veille technologique, et gestion via tableau Kanban."
     },
     {
-        "id": "5",
+        "id": "6",
         "title": "Kasa",
         "description": "Site de location immobilière",
         "technologies": [
@@ -114,7 +133,7 @@
         "info": "Reconstruction du site avec Create React App, intégrant React Router et SASS. Animations, carrousel, et éléments collapses pour une expérience utilisateur interactive et conviviale."
     },
     {
-        "id": "6",
+        "id": "7",
         "title": "Portfolio Nina Carducci",
         "description": "Site portfolio d'une photographe",
         "technologies": [
@@ -133,7 +152,7 @@
         "info": "Projet pour booster la performance du site : optimisation d'images, refonte de code, SEO, référencement local, métas pour réseaux, et Rich Snippet pour visibilité accrue."
     },
     {
-        "id": "7",
+        "id": "8",
         "title": "724 Events",
         "description": "Site vitrine d'une agence d'évènementielle",
         "technologies": [
@@ -153,7 +172,7 @@
         "info": "Ma mission : optimiser le site 724events par débogage et tests. Utilisation des React Dev Tools pour analyser et améliorer le code, garantissant ainsi un site fluide et réactif."
     },
     {
-        "id": "8",
+        "id": "9",
         "title": "ArgentBank",
         "description": "Site de banque en ligne",
         "technologies": [
